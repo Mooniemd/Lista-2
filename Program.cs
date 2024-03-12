@@ -65,7 +65,7 @@ Console.WriteLine("Escreva sua segunda nota!");
 double nota2 = Convert.ToDouble(Console.ReadLine()!);
 double media = (nota1 + nota2) / 2;
 
-  if (media < 5){
+  if (media < 6){
     Console.WriteLine("Sua media foi de: " + media + ", você foi reprovado!");
   } else{
     Console.WriteLine("Sua media foi de: " + media + ", você foi aprovado!");
